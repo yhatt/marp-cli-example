@@ -4,7 +4,13 @@
   "author": "Yuki Hattori <yukihattori1116@gmail.com>",
   "license": "WTFPL",
   "private": true,
+  "scripts": {
+    "build": "marp PITCHME.md"
+  },
   "devDependencies": {
     "@marp-team/marp-cli": "^0.0.6"
+  },
+  "marp": {
+    "output": "dist/index.html"
   }
 }
