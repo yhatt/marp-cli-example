@@ -19,7 +19,7 @@ _color: #fff
 -->
 
 ##### <!--fit--> [@marp-team/marp-cli](https://github.com/marp-team/marp-cli) + [Netlify](https://www.netlify.com/)
-##### <!--fit--> ≒ [GitPitch](https://gitpitch.com/) style
+##### <!--fit--> ≒ [GitPitch](https://gitpitch.com/) style hosting
 
 ---
 
