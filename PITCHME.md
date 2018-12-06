@@ -1,4 +1,5 @@
 ---
+theme: uncover
 paginate: true
 _paginate: false
 ---

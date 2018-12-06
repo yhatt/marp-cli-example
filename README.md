@@ -4,6 +4,25 @@
 
 ### :arrow_right: https://cranky-colden-877afa.netlify.com/
 
+## Usage
+
+```
+git clone https://github.com/yhatt/marp-cli-example.git
+yarn install
+```
+
+### Write your slide deck
+
+```
+yarn start
+```
+
+### Convert into static HTML
+
+```
+yarn build
+```
+
 ## LICENSE
 
 [WTFPL](/LICENSE)

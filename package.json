@@ -5,13 +5,13 @@
   "license": "WTFPL",
   "private": true,
   "scripts": {
-    "build": "marp PITCHME.md"
+    "build": "marp PITCHME.md",
+    "start": "marp --server --preview ."
   },
   "devDependencies": {
-    "@marp-team/marp-cli": "^0.0.6"
+    "@marp-team/marp-cli": "^0.0.15"
   },
   "marp": {
-    "output": "dist/index.html",
-    "theme": "uncover"
+    "output": "dist/index.html"
   }
 }
