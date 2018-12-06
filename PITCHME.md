@@ -24,6 +24,12 @@ _color: #fff
 
 ---
 
+### Ready to write your deck!
+
+[![Deploy to Netlify w:400](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/yhatt/marp-cli-example)
+
+---
+
 ### <!--fit--> :ok_hand:
 
 ---

@@ -2,7 +2,9 @@
 
 [@marp-team/marp-cli](https://github.com/marp-team/marp-cli) + [Netlify](https://www.netlify.com/) ≒ [GitPitch](https://gitpitch.com/) style hosting of [Marp slide deck](https://github.com/marp-team/marp-core) on the web.
 
-### :arrow_right: https://cranky-colden-877afa.netlify.com/
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/yhatt/marp-cli-example)
+
+### [:point_right: Demo deck](https://yhatt-marp-cli-example.netlify.com/)
 
 ## Usage
 
