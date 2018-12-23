@@ -6,10 +6,10 @@
   "private": true,
   "scripts": {
     "build": "marp PITCHME.md",
-    "start": "marp --server --preview ."
+    "start": "marp -ps ."
   },
   "devDependencies": {
-    "@marp-team/marp-cli": "^0.0.15"
+    "@marp-team/marp-cli": "^0.1.0"
   },
   "marp": {
     "output": "dist/index.html"
