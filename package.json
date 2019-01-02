@@ -9,7 +9,7 @@
     "start": "marp -ps ."
   },
   "devDependencies": {
-    "@marp-team/marp-cli": "^0.1.0"
+    "@marp-team/marp-cli": "^0.2.0"
   },
   "marp": {
     "output": "dist/index.html"
