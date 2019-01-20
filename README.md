@@ -13,7 +13,7 @@ It's surprisingly easy to start writing your slide deck! Push **"Deploy to Netli
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/yhatt/marp-cli-example)
 
-After than, clone *your repository* and install Marp CLI.
+After than, clone *your repository* and install Marp CLI. (Required [Node.js](https://nodejs.org/) >= 8)
 
 ```
 git clone https://github.com/[your-name]/[repository-name].git
