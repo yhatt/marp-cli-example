@@ -11,7 +11,7 @@
 
 ## Usage
 
-It's surprisingly easy to start writing your slide deck! Push **"Deploy to Netlify"** button. Netlify will create your repository based on this example and host website automatically.
+It's surprisingly easy to start writing your slide deck! Push **"Deploy to netlify"** button. Netlify will create your repository based on this example and host website automatically.
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/yhatt/marp-cli-example)
 
