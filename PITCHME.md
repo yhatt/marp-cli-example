@@ -4,7 +4,7 @@ paginate: true
 _paginate: false
 ---
 
-# <!--fit--> @marp-team/marp-cli example
+# <!--fit--> Marp CLI example
 
 Hosting Marp slide deck on the web
 
