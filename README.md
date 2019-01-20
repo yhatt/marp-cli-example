@@ -2,6 +2,8 @@
 
 [Marp CLI](https://github.com/marp-team/marp-cli) + [Netlify](https://www.netlify.com/) ≒ [GitPitch](https://gitpitch.com/) style hosting of [Marp](https://github.com/marp-team/marp) slide deck on the web.
 
+[<img src="https://user-images.githubusercontent.com/3993388/51444810-f6118800-1d3f-11e9-91d3-7bc878cb375d.png" align="right" width="200" vspace="10">](https://yhatt-marp-cli-example.netlify.com/)
+
 ### :point_right: https://yhatt-marp-cli-example.netlify.com/
 
 - Navigate slide deck with arrow key, mouse wheel, and swipe gesture.
@@ -32,7 +34,7 @@ Please see the documentation of [Marpit Markdown](https://marpit.marp.app/markdo
 npm run start
 ```
 
-It will be opened preview window, and track changes of `PITCHME.md`.
+It will be opened preview window, and track change of `PITCHME.md`.
 
 ### Convert into static HTML
 
