@@ -10,8 +10,5 @@
   },
   "devDependencies": {
     "@marp-team/marp-cli": "^0.5.0"
-  },
-  "marp": {
-    "output": "dist/index.html"
   }
 }
