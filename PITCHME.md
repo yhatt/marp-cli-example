@@ -1,4 +1,7 @@
 ---
+title: Marp CLI example
+description: Marp CLI + Netlify ≒ GitPitch style hosting of Marp slide deck on the web
+image: https://user-images.githubusercontent.com/3993388/52071974-70a39880-25c7-11e9-8aee-9e026fc7f49e.png
 theme: uncover
 paginate: true
 _paginate: false
@@ -20,6 +23,7 @@ _color: #fff
 -->
 
 ##### <!--fit--> [@marp-team/marp-cli](https://github.com/marp-team/marp-cli) + [Netlify](https://www.netlify.com/)
+
 ##### <!--fit--> ≒ [GitPitch](https://gitpitch.com/) style hosting
 
 ---
