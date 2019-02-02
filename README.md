@@ -15,9 +15,9 @@ It's surprisingly easy to start writing your slide deck! Push **"Deploy to netli
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/yhatt/marp-cli-example)
 
-After than, clone *your repository* and install Marp CLI. (Required [Node.js](https://nodejs.org/) >= 8)
+After than, clone _your repository_ and install Marp CLI. (Required [Node.js](https://nodejs.org/) >= 8)
 
-```
+```bash
 git clone https://github.com/[your-name]/[repository-name].git
 npm install
 ```
@@ -30,19 +30,26 @@ Please see the documentation of [Marpit Markdown](https://marpit.marp.app/markdo
 
 ### Preview deck
 
-```
+```bash
 npm run start
 ```
 
 It will be opened preview window, and track change of `PITCHME.md`.
 
-### Convert into static HTML
+### Build deck
 
-```
+```bash
 npm run build
 ```
 
-The converted HTML will output to `dist/index.html`.
+The built assets will output to `dist` folder.
+
+#### Build per assets
+
+```bash
+npm run deck      # Output static HTML to dist/index.html
+npm run og-image  # Output image for Open Graph to dist/og-image.jpg
+```
 
 ## LICENSE
 

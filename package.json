@@ -5,7 +5,9 @@
   "license": "WTFPL",
   "private": true,
   "scripts": {
-    "build": "marp PITCHME.md -o dist/index.html",
+    "build": "npm run -s og-image && npm run -s deck",
+    "deck": "marp PITCHME.md -o dist/index.html",
+    "og-image": "marp PITCHME.md -o dist/og-image.jpg",
     "start": "marp -ps ."
   },
   "devDependencies": {
