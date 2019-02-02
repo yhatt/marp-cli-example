@@ -1,4 +1,4 @@
 module.exports = {
-  output: 'dist/index.html',
+  ogImage: process.env.URL && `${process.env.URL}/og-image.jpg`,
   url: process.env.URL,
 }
