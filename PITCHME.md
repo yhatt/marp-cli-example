@@ -1,4 +1,5 @@
 ---
+marp: true
 title: Marp CLI example
 description: Marp CLI + Netlify ≒ GitPitch style hosting of Marp slide deck on the web
 theme: uncover
