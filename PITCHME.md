@@ -11,6 +11,8 @@ _paginate: false
 
 Hosting Marp slide deck on the web
 
+https://github.com/yhatt/marp-cli-example
+
 ---
 
 ![Marp bg 60%](https://github.com/marp-team/marp/blob/master/marp.png?raw=true)
