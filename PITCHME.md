@@ -15,7 +15,7 @@ https://github.com/yhatt/marp-cli-example
 
 ---
 
-![Marp bg 60%](https://github.com/marp-team/marp/blob/master/marp.png?raw=true)
+![Marp bg 60%](https://raw.githubusercontent.com/marp-team/marp/master/marp.png)
 
 ---
 
@@ -24,15 +24,31 @@ _backgroundColor: #123
 _color: #fff
 -->
 
-##### <!--fit--> [@marp-team/marp-cli](https://github.com/marp-team/marp-cli) + [Netlify](https://www.netlify.com/)
+##### <!--fit--> [@marp-team/marp-cli](https://github.com/marp-team/marp-cli) + [Netlify](https://www.netlify.com/) | [Now](https://zeit.co/now)
 
-##### <!--fit--> ≒ [GitPitch](https://gitpitch.com/) style hosting
+##### <!--fit--> 👉 The easiest way to host<br />your Marp deck on the web
 
 ---
 
-### Ready to write & host your deck!
+![bg right 70%](https://www.netlify.com/img/press/logos/logomark.svg)
 
-[![Deploy to Netlify w:400](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/yhatt/marp-cli-example)
+## **[Netlify](https://www.netlify.com/)**
+
+#### Ready to write & host your deck!
+
+[![Deploy to Netlify w:300](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/yhatt/marp-cli-example)
+
+---
+
+![bg right 70%](https://assets.zeit.co/image/upload/front/assets/design/now-black.svg)
+
+## **[Now](https://zeit.co/now)**
+
+#### Host your deck by just running `now`!
+
+```bash
+now
+```
 
 ---
 
@@ -40,7 +56,13 @@ _color: #fff
 
 ---
 
-![bg 30% opacity blur](https://github.com/yhatt.png)
+<style scoped>
+h3 {
+  text-shadow: 0 0 30px #fff;
+}
+</style>
+
+![bg 40% opacity blur](https://github.com/yhatt.png)
 
 ### Created by Yuki Hattori ([@yhatt](https://github.com/yhatt))
 
