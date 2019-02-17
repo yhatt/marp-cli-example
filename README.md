@@ -18,7 +18,7 @@
 ## See published slide
 
 - <img src="https://www.netlify.com/img/press/logos/logomark.svg" width="16" height="16" /> **[Netlify]**: https://yhatt-marp-cli-example.netlify.com/
-  <!-- - <img src="https://assets.zeit.co/image/upload/front/assets/design/now-black.svg" width="16" height="16" /> **[Now]**: https://yhatt-marp-cli-example.now.sh/ -->
+- <img src="https://assets.zeit.co/image/upload/front/assets/design/now-black.svg" width="16" height="16" /> **[Now]**: https://yhatt-marp-cli-example.now.sh/
 
 ## Usage
 
@@ -34,29 +34,33 @@ After than, clone _your repository_ and install Marp CLI. (Required [Node.js](ht
 
 ```bash
 git clone https://github.com/[your-name]/[repository-name].git
+cd ./[repository-name]
+
 npm install
 ```
 
-OK, ready to write your slide deck! Edit **`PITCHME.md`** with your favorite editor, and preview with `npm run start`.
+OK, ready to write your slide deck! Edit **`PITCHME.md`** with your favorite editor, and preview with `npm run start`. By pushing Git commit to `master`, Netlify will host the deck to website.
 
-By pushing Git commit to `master`, Netlify will host the deck to website.
+> :information_source: Netlify integration can make an [Open Graph](http://ogp.me/) image automatically.
 
 ### [Now]
 
-You can try publishing deck by using [Now] without fork repository. After than [install Now](https://zeit.co/docs/v2/getting-started/installation/), clone this repository and just run `now`.
+You can try publishing deck by using [Now] without a forked repository. After than [install and setup Now](https://zeit.co/docs/v2/getting-started/installation/), clone this repository and just run `now`.
 
 ```bash
 git clone https://github.com/yhatt/marp-cli-example.git
+cd ./marp-cli-example
+
 now
 ```
 
-An example slide will publish to https://yhatt-marp-cli-example-xxxxxxxxx.now.sh. When you made a satisfying deck by editting `PITCHME.md`, publish to your favorite and friendly URL by `now alias`.
+An example slide will publish to https://marp-cli-example-xxxxxxxxx.now.sh. When you made a satisfied deck by editing `PITCHME.md`, publish to your favorite and friendly URL by `now alias`.
 
 ```bash
-now alias https://yhatt-marp-cli-example-xxxxxxxxx.now.sh your-deck-name
+now alias https://marp-cli-example-xxxxxxxxx.now.sh your-deck-name
 ```
 
-Of course, you can manage deck via Git / GitHub at forked repository. As same as Netlify, Now's GitHub integration allows to publish `master` branch automatically.
+Of course, you can manage deck via Git / GitHub at a forked repository. As same as Netlify, [Now GitHub integration](https://zeit.co/github) allows publishing `master` branch automatically.
 
 ## How to write
 
