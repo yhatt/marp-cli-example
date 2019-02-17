@@ -7,7 +7,7 @@
   "scripts": {
     "build": "npm run -s og-image && npm run -s deck",
     "deck": "marp PITCHME.md -o dist/index.html",
-    "now-build": "mkdir dist && cp PITCHME.md dist/index.md && marp -I dist",
+    "now-build": "cat PITCHME.md | marp -o dist/index.html",
     "og-image": "marp PITCHME.md -o dist/og-image.jpg",
     "start": "marp -ps ."
   },
