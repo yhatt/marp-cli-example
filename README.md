@@ -1,9 +1,9 @@
 # Marp CLI example
 
-**The good starter project to use [Marp CLI].**
+**The good starter example for using [Marp] via [Marp CLI].**
 
 - Write your slide deck by [Marp] Markdown.
-- Manage the content of slides via Git.
+- Manage the content of slides via Git. (Using [GitPitch](https://gitpitch.com/) style `PITCHME.md`)
 - Host your deck at GitHub, and publish as webpage with [Netlify] / [Now]!
 
 [marp]: https://marp.app/
