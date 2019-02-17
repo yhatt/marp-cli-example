@@ -17,14 +17,14 @@
 
 ## See published slide
 
-- <img src="https://www.netlify.com/img/press/logos/logomark.svg" width="16" height="16" /> **[Netlify]**: https://yhatt-marp-cli-example.netlify.com/
-- <img src="https://assets.zeit.co/image/upload/front/assets/design/now-black.svg" width="16" height="16" /> **[Now]**: https://yhatt-marp-cli-example.now.sh/
+- <img src="https://www.netlify.com/img/press/logos/logomark.svg" width="24" height="24" valign="bottom" /> **[Netlify]**: https://yhatt-marp-cli-example.netlify.com/
+- <img src="https://assets.zeit.co/image/upload/front/assets/design/now-black.svg" width="24" height="24" valign="bottom" /> **[Now]**: https://yhatt-marp-cli-example.now.sh/
 
 ## Usage
 
 It's surprisingly easy to start writing your slide deck!
 
-### [Netlify]
+### <img src="https://www.netlify.com/img/press/logos/logomark.svg" width="24" height="24" valign="bottom" /> [Netlify]
 
 Push **"Deploy to netlify"** button. [Netlify] will create your repository based on this example and host website automatically.
 
@@ -43,7 +43,7 @@ OK, ready to write your slide deck! Edit **`PITCHME.md`** with your favorite edi
 
 > :information_source: Netlify integration can make an [Open Graph](http://ogp.me/) image automatically.
 
-### [Now]
+### <img src="https://assets.zeit.co/image/upload/front/assets/design/now-black.svg" width="24" height="24" valign="bottom" /> [Now]
 
 You can try publishing deck by using [Now] without a forked repository. After than [install and setup Now](https://zeit.co/docs/v2/getting-started/installation/), clone this repository and just run `now`.
 
