@@ -1,16 +1,32 @@
 # Marp CLI example
 
-[Marp CLI](https://github.com/marp-team/marp-cli) + [Netlify](https://www.netlify.com/) ≒ [GitPitch](https://gitpitch.com/) style hosting of [Marp](https://github.com/marp-team/marp) slide deck on the web.
+**The good starter example for using [Marp] via [Marp CLI].**
 
-### :point_right: https://yhatt-marp-cli-example.netlify.com/
+- Write your slide deck by [Marp] Markdown.
+- Manage the content of slides via Git. (Using [GitPitch](https://gitpitch.com/) style `PITCHME.md`)
+- Host your deck at GitHub, and publish as webpage with [Netlify] / [Now]!
+
+[marp]: https://marp.app/
+[marp cli]: https://github.com/marp-team/marp-cli
+[netlify]: https://www.netlify.com/
+[now]: https://zeit.co/now
 
 <p align="center">
   <a href="https://yhatt-marp-cli-example.netlify.com/"><img src="https://yhatt-marp-cli-example.netlify.com/og-image.jpg" width="500" /></a>
 </p>
 
+## See published slide
+
+- <img src="https://www.netlify.com/img/press/logos/logomark.svg" width="24" height="24" valign="bottom" /> **[Netlify]**: https://yhatt-marp-cli-example.netlify.com/
+- <img src="https://assets.zeit.co/image/upload/front/assets/design/now-black.svg" width="24" height="24" valign="bottom" /> **[Now]**: https://yhatt-marp-cli-example.now.sh/
+
 ## Usage
 
-It's surprisingly easy to start writing your slide deck! Push **"Deploy to netlify"** button. Netlify will create your repository based on this example and host website automatically.
+It's surprisingly easy to start writing your slide deck!
+
+### <img src="https://www.netlify.com/img/press/logos/logomark.svg" width="24" height="24" valign="bottom" /> [Netlify]
+
+Push **"Deploy to netlify"** button. [Netlify] will create your repository based on this example and host website automatically.
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/yhatt/marp-cli-example)
 
@@ -18,12 +34,35 @@ After than, clone _your repository_ and install Marp CLI. (Required [Node.js](ht
 
 ```bash
 git clone https://github.com/[your-name]/[repository-name].git
+cd ./[repository-name]
+
 npm install
 ```
 
-OK, ready to write your slide deck! Edit **`PITCHME.md`** with your favorite editor. By pushing Git commit to `master`, Netlify will host the deck to website.
+OK, ready to write your slide deck! Edit **`PITCHME.md`** with your favorite editor, and preview with `npm run start`. By pushing Git commit to `master`, Netlify will host the deck to website.
 
-### How to write
+> :information_source: Netlify integration can make an [Open Graph](http://ogp.me/) image automatically.
+
+### <img src="https://assets.zeit.co/image/upload/front/assets/design/now-black.svg" width="24" height="24" valign="bottom" /> [Now]
+
+You can try publishing deck by using [Now] without a forked repository. After than [install and setup Now](https://zeit.co/docs/v2/getting-started/installation/), clone this repository and just run `now`.
+
+```bash
+git clone https://github.com/yhatt/marp-cli-example.git
+cd ./marp-cli-example
+
+now
+```
+
+An example slide will publish to https://marp-cli-example-xxxxxxxxx.now.sh. When you made a satisfied deck by editing `PITCHME.md`, publish to your favorite and friendly URL by `now alias`.
+
+```bash
+now alias https://marp-cli-example-xxxxxxxxx.now.sh your-deck-name
+```
+
+Of course, you can manage deck via Git / GitHub at a forked repository. As same as Netlify, [Now GitHub integration](https://zeit.co/github) allows publishing `master` branch automatically.
+
+## How to write
 
 Please see the documentation of [Marpit Markdown](https://marpit.marp.app/markdown), [the features of Marp Core](https://github.com/marp-team/marp-core#features), and the default example in [`PITCHME.md`](https://raw.githubusercontent.com/yhatt/marp-cli-example/master/PITCHME.md).
 
@@ -33,7 +72,7 @@ Please see the documentation of [Marpit Markdown](https://marpit.marp.app/markdo
 npm run start
 ```
 
-It will be opened preview window, and track change of `PITCHME.md`.
+It will be opened preview window via Chrome, and track change of `PITCHME.md`.
 
 ### Build deck
 
