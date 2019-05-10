@@ -6,12 +6,12 @@
   "private": true,
   "scripts": {
     "build": "npm run -s og-image && npm run -s deck",
-    "deck": "marp PITCHME.md -o dist/index.html",
-    "now-build": "cat PITCHME.md | marp -o dist/index.html",
+    "deck": "marp --no-stdin PITCHME.md -o dist/index.html",
+    "now-build": "npm run -s deck",
     "og-image": "marp PITCHME.md -o dist/og-image.jpg",
     "start": "marp -ps ."
   },
   "devDependencies": {
-    "@marp-team/marp-cli": "^0.8.1"
+    "@marp-team/marp-cli": "^0.9.2"
   }
 }
