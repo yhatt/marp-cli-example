@@ -54,10 +54,14 @@ cd ./marp-cli-example
 now
 ```
 
-An example slide will publish to https://marp-cli-example-xxxxxxxxx.now.sh. When you made a satisfied deck by editing `PITCHME.md`, publish to your favorite and friendly URL by `now alias`.
+An example slide will publish to **`https://marp-cli-example.[your-name].now.sh`**. When you made a satisfied deck by editing `PITCHME.md`, publish to your favorite and friendly URL by `now alias`.
 
 ```bash
-now alias https://marp-cli-example-xxxxxxxxx.now.sh your-deck-name
+# Alias to https://friendly-subdomain.now.sh
+now alias https://marp-cli-example.[your-name].now.sh friendly-subdomain
+
+# Alias to your custom domain registered to Now
+now alias https://marp-cli-example.[your-name].now.sh your-custom-domain.com
 ```
 
 Of course, you can manage deck via Git / GitHub at a forked repository. As same as Netlify, [Now GitHub integration](https://zeit.co/github) allows publishing `master` branch automatically.
