@@ -62,7 +62,7 @@ h3 {
 }
 </style>
 
-![bg 40% opacity blur](https://github.com/yhatt.png)
+![bg 40% opacity blur](https://avatars1.githubusercontent.com/u/3993388?v=4)
 
 ### Created by Yuki Hattori ([@yhatt](https://github.com/yhatt))
 
