@@ -12,6 +12,6 @@
     "start": "marp -ps ."
   },
   "devDependencies": {
-    "@marp-team/marp-cli": "^0.10.2"
+    "@marp-team/marp-cli": "^0.11.1"
   }
 }
