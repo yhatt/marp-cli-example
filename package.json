@@ -5,13 +5,15 @@
   "license": "WTFPL",
   "private": true,
   "scripts": {
-    "build": "npm run -s og-image && npm run -s deck",
-    "deck": "marp --no-stdin PITCHME.md -o dist/index.html",
+    "build": "rimraf dist && npm run -s og-image && npm run -s deck",
+    "deck": "marp --no-stdin PITCHME.md -o dist/index.html && cpx \"assets/**/*\" dist/assets",
     "now-build": "npm run -s deck",
     "og-image": "marp PITCHME.md -o dist/og-image.jpg",
     "start": "marp -ps ."
   },
   "devDependencies": {
-    "@marp-team/marp-cli": "^0.11.3"
+    "@marp-team/marp-cli": "^0.11.3",
+    "cpx": "^1.5.0",
+    "rimraf": "^2.6.3"
   }
 }
