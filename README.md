@@ -70,6 +70,11 @@ Of course, you can manage deck via Git / GitHub at a forked repository. As same 
 
 Please see the documentation of [Marpit Markdown](https://marpit.marp.app/markdown), [the features of Marp Core](https://github.com/marp-team/marp-core#features), and the default example in [`PITCHME.md`](https://raw.githubusercontent.com/yhatt/marp-cli-example/master/PITCHME.md).
 
+### Assets and themes
+
+- `assets` directory can put your assets for using in the deck. (e.g. Image resources)
+- `themes` directory can put [custom theme CSS](https://marpit.marp.app/theme-css). To use in the deck, please change `theme` global directive.
+
 ### Preview deck
 
 ```bash

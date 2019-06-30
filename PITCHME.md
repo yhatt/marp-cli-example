@@ -7,11 +7,15 @@ paginate: true
 _paginate: false
 ---
 
+![bg](./assets/gradient.jpg)
+
 # <!--fit--> Marp CLI example
 
 Hosting Marp slide deck on the web
 
 https://github.com/yhatt/marp-cli-example
+
+<style scoped>a { color: #eee; }</style>
 
 ---
 
@@ -19,10 +23,8 @@ https://github.com/yhatt/marp-cli-example
 
 ---
 
-<!--
-_backgroundColor: #123
-_color: #fff
--->
+![bg](#123)
+![](#fff)
 
 ##### <!--fit--> [@marp-team/marp-cli](https://github.com/marp-team/marp-cli) + [Netlify](https://www.netlify.com/) | [Now](https://zeit.co/now)
 
@@ -55,12 +57,6 @@ now
 ### <!--fit--> :ok_hand:
 
 ---
-
-<style scoped>
-h3 {
-  text-shadow: 0 0 30px #fff;
-}
-</style>
 
 ![bg 40% opacity blur](https://avatars1.githubusercontent.com/u/3993388?v=4)
 
