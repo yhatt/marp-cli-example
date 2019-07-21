@@ -1,0 +1,177 @@
+/* @theme lemon */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700|Roboto:400,700&display=swap');
+
+section {
+  --primary-color: #fd4;
+  --secondary-color: #db1;
+  --dark-color: #872;
+  --gray-color: #111;
+  --emoji-stroke: rgba(0, 0, 0, 0.5);
+
+  --text-color: var(--gray-color);
+  --bg-color: var(--primary-color);
+  --pagination-text-color: #666;
+  --pagination-bg-color: #fff;
+
+  background: var(--bg-color)
+    linear-gradient(to top, transparent, rgba(255, 255, 255, 0.1));
+  color: var(--text-color);
+  display: flex;
+  line-height: 1.3;
+  padding: 50px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+section::after {
+  background: var(--pagination-bg-color);
+  border-radius: 40px 10px 40px 10px;
+  bottom: -20px;
+  box-shadow: 20px -55px 0 -25px var(--pagination-bg-color),
+    5px -75px 0 -30px var(--pagination-bg-color);
+  color: var(--pagination-text-color);
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  height: 70px;
+  line-height: 55px;
+  padding: 0;
+  right: 20px;
+  text-align: center;
+  width: 70px;
+}
+
+section.condensed {
+  font-family: 'Roboto Condensed', 'Roboto', sans-serif;
+}
+
+section.invert {
+  --text-color: var(--primary-color);
+  --bg-color: var(--gray-color);
+  --pagination-bg-color: var(--primary-color);
+  --pagination-text-color: var(--gray-color);
+
+  background: var(--bg-color)
+    linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.1));
+}
+
+section[data-background-color] {
+  background: var(--background-color)
+    linear-gradient(to top, transparent, rgba(255, 255, 255, 0.1)) !important;
+}
+
+section.invert[data-background-color] {
+  background: var(--background-color)
+    linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.1)) !important;
+}
+
+img[data-marp-twemoji] {
+  /* Add black stroke to make yellow emoji easy to visible */
+  filter: drop-shadow(0 1px 0.5px var(--emoji-stroke))
+    drop-shadow(1px 0 0.5px var(--emoji-stroke))
+    drop-shadow(-1px 0 0.5px var(--emoji-stroke))
+    drop-shadow(0 -1px 0.5px var(--emoji-stroke));
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  --highlight-color: var(--color, var(--secondary-color));
+  --emoji-stroke: transparent;
+
+  color: var(--gray-color);
+  display: table;
+  line-height: 1;
+  margin: 0.25em auto;
+  padding: 0.2em 0.6em;
+  position: relative;
+  text-align: center;
+  z-index: 0;
+  max-width: calc(100% - 2.5em);
+}
+
+h1 { font-size: 1.8em; }
+h2 { font-size: 1.6em; }
+h3 { font-size: 1.4em; }
+h4 { font-size: 1.2em; }
+h5 { font-size: 1em; }
+h6 { font-size: 0.8em; }
+
+h1::before,
+h2::before,
+h3::before,
+h4::before,
+h5::before,
+h6::before {
+  background: #fff;
+  background-clip: padding-box;
+  border-radius: 0.5em 3px 0.5em 3px;
+  bottom: 0;
+  content: '';
+  display: block;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: skewX(-15deg);
+  z-index: -1;
+}
+
+h2::before {
+  left: -0.4em;
+  border-left: 0.4em inset var(--color, var(--primary-color));
+}
+
+h1::before {
+  right: -0.6em;
+  left: -0.6em;
+  border-left: 0.6em inset var(--color, var(--primary-color));
+  border-right: 0.6em outset var(--color, var(--primary-color));
+}
+
+h1 strong,
+h2 strong,
+h3 strong,
+h4 strong,
+h5 strong,
+h6 strong {
+  color: var(--highlight-color);
+}
+
+p {
+  text-align: center;
+}
+
+a {
+  --link-color: var(--dark-color);
+  color: var(--link-color);
+}
+
+section.invert a {
+  color: var(--secondary-color);
+}
+
+header,
+footer {
+  color: #888;
+  font-size: 20px;
+  mix-blend-mode: luminosity;
+  opacity: 0.5;
+  position: absolute;
+  z-index: 2;
+}
+
+header {
+  right: 20px;
+  top: 20px;
+}
+
+footer {
+  left: 20px;
+  bottom: 20px;
+}
