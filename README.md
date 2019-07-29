@@ -70,6 +70,14 @@ Of course, you can manage deck via Git / GitHub at a forked repository. As same 
 
 Please see the documentation of [Marpit Markdown](https://marpit.marp.app/markdown), [the features of Marp Core](https://github.com/marp-team/marp-core#features), and the default example in [`PITCHME.md`](https://raw.githubusercontent.com/yhatt/marp-cli-example/master/PITCHME.md).
 
+[**Marp for VS Code**](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode) extension is the best partner for writing Marp slide deck with live preview.
+
+<p align="center">
+  <a href="https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode">
+    <img src="https://raw.githubusercontent.com/marp-team/marp-vscode/master/images/screenshot.png" width="500" />
+  </a>
+</p>
+
 ### Assets and themes
 
 - `assets` directory can put your assets for using in the deck. (e.g. Image resources)
