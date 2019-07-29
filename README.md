@@ -18,7 +18,7 @@
 ## See published slide
 
 - <img src="https://www.netlify.com/img/press/logos/logomark.svg" width="24" height="24" valign="bottom" /> **[Netlify]**: https://yhatt-marp-cli-example.netlify.com/
-- <img src="https://assets.zeit.co/image/upload/front/assets/design/now-black.svg" width="24" height="24" valign="bottom" /> **[Now]**: https://yhatt-marp-cli-example.now.sh/
+- <img src="https://assets.zeit.co/image/upload/front/assets/design/now-black.svg" width="24" height="24" valign="bottom" /> **[Now]**: https://marp-cli-example.yhatt.now.sh/
 
 ## Usage
 
