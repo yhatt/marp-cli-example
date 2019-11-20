@@ -21,15 +21,28 @@ jobs:
         with:
           node-version: '^12.13.1'
 
-      - name: Build Marp slide deck
+      - uses: actions/cache@v1
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - name: Install dependencies and Puppeteer
         run: |
           npm ci
           npm i puppeteer --no-save
+
+      - name: Build Marp slide deck
+        run: |
           CHROME_PATH=$(node .puppeteer.js) npm run build
           touch ./dist/.nojekyll
         env:
           # Please update URL if you want to use custom domain
           URL: https://${{ github.event.repository.owner.name }}.github.io/${{ github.event.repository.name }}
+
+          # Recommend to set lang for your deck to get better rendering for Open Graph image 
+          LANG: en-US
 
       - name: Deploy to GitHub pages
         uses: JamesIves/github-pages-deploy-action@releases/v3
