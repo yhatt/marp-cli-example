@@ -18,7 +18,7 @@
 
 ## See published slide deck
 
-- <img src="http://github.com/favicon.ico" width="24" height="24" valign="bottom" /> **[GitHub Pages]**: https://yhatt.github.io/marp-cli-example
+- <img src="https://icongr.am/octicons/mark-github.svg" width="24" height="24" valign="bottom" /> **[GitHub Pages]**: https://yhatt.github.io/marp-cli-example
 - <img src="https://www.netlify.com/img/press/logos/logomark.svg" width="24" height="24" valign="bottom" /> **[Netlify]**: https://yhatt-marp-cli-example.netlify.com/
 - <img src="https://assets.zeit.co/image/upload/front/assets/design/now-black.svg" width="24" height="24" valign="bottom" /> **[ZEIT Now][now]**: https://marp-cli-example.yhatt.now.sh/
 
@@ -26,11 +26,13 @@
 
 It's surprisingly easy to start publishing your slide deck!
 
-### <img src="http://github.com/favicon.ico" width="24" height="24" valign="bottom" /> [GitHub Pages]
+### <img src="https://icongr.am/octicons/mark-github.svg" width="24" height="24" valign="bottom" /> [GitHub Pages]
 
 [Just fork this repository](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) from **"Fork"** button in right-top corner!
 
 We have [GitHub Actions workflow](.github/workflows/github-pages.yml) to build and deploy from `master` to `gh-pages` automatically. Marp slide deck generated from [`PITCHME.md`](PITCHME.md) will be published to `https://<your-name>.github.io/<repository-name>`.
+
+> :warning: Please notice the slide deck hosted with GitHub Pages will be made public even if you forked this to private repository.
 
 ### <img src="https://www.netlify.com/img/press/logos/logomark.svg" width="24" height="24" valign="bottom" /> [Netlify]
 
