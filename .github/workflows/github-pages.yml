@@ -21,11 +21,12 @@ jobs:
         with:
           node-version: '^12.13.1'
 
-      - name: Build slide deck
+      - name: Build Marp slide deck
         run: |
           npm ci
           npm i puppeteer --no-save
           CHROME_PATH=$(node .puppeteer.js) npm run build
+          touch ./dist/.nojekyll
         env:
           # Please update URL if you want to use custom domain
           URL: https://${{ github.event.repository.owner.name }}.github.io/${{ github.event.repository.name }}
