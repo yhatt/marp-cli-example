@@ -26,9 +26,21 @@ https://github.com/yhatt/marp-cli-example
 ![bg](#123)
 ![](#fff)
 
-##### <!--fit--> [@marp-team/marp-cli](https://github.com/marp-team/marp-cli) + [Netlify](https://www.netlify.com/) | [Now](https://zeit.co/now)
+##### <!--fit--> [Marp CLI](https://github.com/marp-team/marp-cli) + [GitHub Pages](https://github.com/pages) | [Netlify](https://www.netlify.com/) | [ZEIT Now](https://zeit.co/now)
 
 ##### <!--fit--> 👉 The easiest way to host<br />your Marp deck on the web
+
+---
+
+![bg right 70%](https://icongr.am/octicons/mark-github.svg)
+
+## **[GitHub Pages](https://github.com/pages)**
+
+#### Ready to write & host your deck!
+
+[![Fork on GitHub h:1.5em](https://img.shields.io/github/forks/yhatt/marp-cli-example?label=Fork&style=social)](https://github.com/yhatt/marp-cli-example)
+
+<!-- _footer: ":information_source: Require to pass ACCESS_TOKEN as secret." -->
 
 ---
 
@@ -38,19 +50,17 @@ https://github.com/yhatt/marp-cli-example
 
 #### Ready to write & host your deck!
 
-[![Deploy to Netlify w:300](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/yhatt/marp-cli-example)
+[![Deploy to Netlify h:1.5em](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/yhatt/marp-cli-example)
 
 ---
 
 ![bg right 70%](https://assets.zeit.co/image/upload/front/assets/design/now-black.svg)
 
-## **[Now](https://zeit.co/now)**
+## **[ZEIT Now](https://zeit.co/now)**
 
-#### Host your deck by just running `now`!
+#### Ready to write & host your deck!
 
-```bash
-now
-```
+[![Deploy with ZEIT Now h:1.5em](https://zeit.co/button)](https://zeit.co/new/project?template=https://github.com/yhatt/marp-cli-example)
 
 ---
 
