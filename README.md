@@ -34,6 +34,16 @@ We have [GitHub Actions workflow](.github/workflows/github-pages.yml) to build a
 
 > :warning: Please notice the slide deck hosted with GitHub Pages will be made public even if you forked this to private repository.
 
+#### Setup personal access token
+
+In the moment, deploying from public repository to GitHub Pages requires setting up your access token as secret. ([Track discussion in forum...](https://github.community/t5/GitHub-Actions/Github-action-not-triggering-gh-pages-upon-push/m-p/26869/highlight/true))
+
+1. Go to **["Personal Access Tokens"](https://github.com/settings/tokens)** setting page and click **"Generate New Token"**.
+2. Create new token with **"repo"** scope, and _copy generated token_.
+3. Go to **"Settings"** tab in _forked repository_, and select **"Secrets"** from sidebar.
+4. Add a new secret **"ACCESS_TOKEN"** with the value of generated token.
+5. Try to update `master` branch.
+
 ### <img src="https://www.netlify.com/img/press/logos/logomark.svg" width="24" height="24" valign="bottom" /> [Netlify]
 
 Push **"Deploy to netlify"** button. [Netlify] will create your repository based on this example and host website from `master` branch automatically.

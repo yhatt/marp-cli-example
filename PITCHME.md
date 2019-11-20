@@ -40,7 +40,7 @@ https://github.com/yhatt/marp-cli-example
 
 [![Fork on GitHub h:1.5em](https://img.shields.io/github/forks/yhatt/marp-cli-example?label=Fork&style=social)](https://github.com/yhatt/marp-cli-example)
 
-<!-- _footer: Powered by GitHub Actions -->
+<!-- _footer: ":information_source: Require to pass ACCESS_TOKEN as secret." -->
 
 ---
 
