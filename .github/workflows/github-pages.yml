@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - master
+      - github-pages
 
 jobs:
   build:
