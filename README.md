@@ -28,21 +28,23 @@ It's surprisingly easy to start publishing your slide deck!
 
 ### <img src="https://icongr.am/octicons/mark-github.svg" width="24" height="24" valign="bottom" /> [GitHub Pages]
 
-[Just fork this repository](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) from **"Fork"** button in right-top corner!
+[Fork this repository](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) from **"Fork"** button in right-top corner to start!
 
-We have [GitHub Actions workflow](.github/workflows/github-pages.yml) to build and deploy from `master` to `gh-pages` automatically. Marp slide deck generated from [`PITCHME.md`](PITCHME.md) will be published to `https://<your-name>.github.io/<repository-name>`.
+#### Setup GitHub Actions
 
-> :warning: Please notice the slide deck hosted with GitHub Pages will be made public even if you forked this to private repository.
-
-#### Setup personal access token
+We have [GitHub Actions workflow](.github/workflows/github-pages.yml) to build and deploy from `master` to `gh-pages` automatically.
 
 In the moment, deploying from public repository to GitHub Pages requires setting up your access token as secret. ([Track discussion in forum...](https://github.community/t5/GitHub-Actions/Github-action-not-triggering-gh-pages-upon-push/m-p/26869/highlight/true))
 
 1. Go to **["Personal Access Tokens"](https://github.com/settings/tokens)** setting page and click **"Generate New Token"**.
 2. Create new token with **"repo"** scope, and _copy generated token_.
-3. Go to **"Settings"** tab in _forked repository_, and select **"Secrets"** from sidebar.
+3. Go to **"Settings"** tab in forked repository, and select **"Secrets"** from sidebar.
 4. Add a new secret **"ACCESS_TOKEN"** with the value of generated token.
-5. Try to update `master` branch.
+5. Turn on GitHub Actions in forked repository from **"Actions"** tab.
+
+Marp slide deck generated from [`PITCHME.md`](PITCHME.md) will be published to `https://<your-name>.github.io/<repository-name>`.
+
+> :warning: Please notice the slide deck hosted with GitHub Pages will be made public even if you forked this to private repository.
 
 ### <img src="https://www.netlify.com/img/press/logos/logomark.svg" width="24" height="24" valign="bottom" /> [Netlify]
 
