@@ -1,0 +1,38 @@
+name: GitHub Pages
+
+on:
+  push:
+    branches:
+      - master
+
+      # For debug
+      - github-pages
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+        with:
+          fetch-depth: 1
+
+      - name: Install Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: '^12.13.1'
+
+      - name: Build slide deck
+        run: |
+          npm ci
+          npm i puppeteer --no-save
+          CHROME_PATH=$(node .puppeteer.js) npm run build
+        env:
+          # Please update URL if you want to use custom domain
+          URL: https://${{ github.event.repository.owner.name }}.github.io/${{ github.event.repository.name }}
+
+      - name: Deploy to GitHub pages
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: dist
