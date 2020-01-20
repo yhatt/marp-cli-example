@@ -17,6 +17,8 @@ https://github.com/yhatt/marp-cli-example
 
 <style scoped>a { color: #eee; }</style>
 
+<!-- This is presenter note. You can write down notes through HTML comment. -->
+
 ---
 
 ![Marp bg 60%](https://raw.githubusercontent.com/marp-team/marp/master/marp.png)
