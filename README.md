@@ -24,7 +24,7 @@
 
 ## Usage
 
-It's surprisingly easy to start publishing your slide deck!
+It's surprisingly easy to start publishing your slide deck through [Netlify] and [ZEIT Now][now]! (GitHub Pages requires a few steps)
 
 ### <img src="https://icongr.am/octicons/mark-github.svg" width="24" height="24" valign="bottom" /> [GitHub Pages]
 
@@ -80,13 +80,13 @@ Just edit **[`PITCHME.md`](./PITCHME.md)**!
   </a>
 </p>
 
-#### Preview via CLI
+#### Start server for preview
 
 ```bash
 npm run start
 ```
 
-It will be opened preview window via installed Google Chrome, and track change of `PITCHME.md`.
+It will start the server listened at http://localhost:8080/, and track change of `PITCHME.md`.
 
 ### Assets and themes
 
