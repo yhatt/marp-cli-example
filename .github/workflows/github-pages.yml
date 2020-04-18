@@ -26,6 +26,7 @@ jobs:
       - name: Install dependencies and Puppeteer
         run: |
           npm ci
+          sudo apt-get install libgbm-dev
           npm i puppeteer --no-save
 
       - name: Build Marp slide deck
