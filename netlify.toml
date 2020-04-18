@@ -1,3 +1,3 @@
 [build]
   publish = "dist"
-  command = "npm i puppeteer && CHROME_PATH=$(node .puppeteer.js) npm run build"
+  command = "npm i puppeteer@2 && CHROME_PATH=$(node .puppeteer.js) npm run build"
