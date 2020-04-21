@@ -28,7 +28,7 @@ https://github.com/yhatt/marp-cli-example
 ![bg](#123)
 ![](#fff)
 
-##### <!--fit--> [Marp CLI](https://github.com/marp-team/marp-cli) + [GitHub Pages](https://github.com/pages) | [Netlify](https://www.netlify.com/) | [ZEIT Now](https://zeit.co/now)
+##### <!--fit--> [Marp CLI](https://github.com/marp-team/marp-cli) + [GitHub Pages](https://github.com/pages) | [Netlify](https://www.netlify.com/) | [Vercel](https://vercel.com/)
 
 ##### <!--fit--> 👉 The easiest way to host<br />your Marp deck on the web
 
@@ -56,13 +56,13 @@ https://github.com/yhatt/marp-cli-example
 
 ---
 
-![bg right 70%](https://assets.zeit.co/image/upload/front/assets/design/now-black.svg)
+![bg right 70%](https://raw.githubusercontent.com/yhatt/marp-cli-example/master/vercel.svg)
 
-## **[ZEIT Now](https://zeit.co/now)**
+## **[Vercel](https://vercel.com/)**
 
 #### Ready to write & host your deck!
 
-[![Deploy with ZEIT Now h:1.5em](https://zeit.co/button)](https://zeit.co/new/project?template=https://github.com/yhatt/marp-cli-example)
+[![Deploy to Vercel h:1.5em](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/yhatt/marp-cli-example)
 
 ---
 

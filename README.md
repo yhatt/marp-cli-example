@@ -4,13 +4,13 @@
 
 - Write your slide deck by [Marp] Markdown.
 - Manage the content of slides via Git. (Using [GitPitch](https://gitpitch.com/) style `PITCHME.md`)
-- Host your deck at GitHub, and publish as webpage with [GitHub Pages], [Netlify], and [ZEIT Now][now]!
+- Host your deck at GitHub, and publish as webpage with [GitHub Pages], [Netlify], and [Vercel][vercel] (ZEIT Now)!
 
 [marp]: https://marp.app/
 [marp cli]: https://github.com/marp-team/marp-cli
 [github pages]: https://pages.github.com/
 [netlify]: https://www.netlify.com/
-[now]: https://zeit.co/now
+[vercel]: https://vercel.com/
 
 <p align="center">
   <a href="https://yhatt.github.io/marp-cli-example"><img src="https://yhatt.github.io/marp-cli-example/og-image.jpg" width="500" /></a>
@@ -20,11 +20,11 @@
 
 - <img src="https://icongr.am/octicons/mark-github.svg" width="24" height="24" valign="bottom" /> **[GitHub Pages]**: https://yhatt.github.io/marp-cli-example
 - <img src="https://www.netlify.com/img/press/logos/logomark.svg" width="24" height="24" valign="bottom" /> **[Netlify]**: https://yhatt-marp-cli-example.netlify.app/
-- <img src="https://assets.zeit.co/image/upload/front/assets/design/now-black.svg" width="24" height="24" valign="bottom" /> **[ZEIT Now][now]**: https://marp-cli-example.yhatt.now.sh/
+- <img src="https://raw.githubusercontent.com/yhatt/marp-cli-example/master/vercel.svg" width="24" height="24" valign="bottom" /> **[Vercel]**: https://marp-cli-example.yhatt.now.sh/
 
 ## Usage
 
-It's surprisingly easy to start publishing your slide deck through [Netlify] and [ZEIT Now][now]! (GitHub Pages requires a few steps)
+It's surprisingly easy to start publishing your slide deck through [Netlify] and [Vercel]! (GitHub Pages requires a few steps)
 
 ### <img src="https://icongr.am/octicons/mark-github.svg" width="24" height="24" valign="bottom" /> [GitHub Pages]
 
@@ -52,13 +52,13 @@ Push **"Deploy to netlify"** button. [Netlify] will create your repository based
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/yhatt/marp-cli-example)
 
-### <img src="https://assets.zeit.co/image/upload/front/assets/design/now-black.svg" width="24" height="24" valign="bottom" /> [ZEIT Now][now]
+### <img src="https://raw.githubusercontent.com/yhatt/marp-cli-example/master/vercel.svg" width="24" height="24" valign="bottom" /> [Vercel] (formerly ZEIT Now)
 
-Push **"Deploy"** button. [ZEIT Now][now] can choose to create your repository into GitHub / GitLab based on this example, or just to try publishing slide deck in your without fork.
+Push **"Deploy"** button. [Vercel] can choose to create your repository into GitHub / GitLab / BitBucket based on this example, or just to try publishing slide deck in your without fork.
 
-[![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/new/project?template=https://github.com/yhatt/marp-cli-example)
+[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/yhatt/marp-cli-example)
 
-> :information_source: The auto-generated open graph image is not available in deployment through ZEIT Now.
+> :information_source: The auto-generated open graph image is not available in deployment through Vercel.
 
 ## How to write
 
