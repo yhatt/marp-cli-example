@@ -20,7 +20,7 @@
 
 - <img src="https://icongr.am/octicons/mark-github.svg" width="24" height="24" valign="bottom" /> **[GitHub Pages]**: https://yhatt.github.io/marp-cli-example
 - <img src="https://www.netlify.com/img/press/logos/logomark.svg" width="24" height="24" valign="bottom" /> **[Netlify]**: https://yhatt-marp-cli-example.netlify.app/
-- <img src="https://raw.githubusercontent.com/yhatt/marp-cli-example/master/vercel.svg" width="24" height="24" valign="bottom" /> **[Vercel]**: https://marp-cli-example.yhatt.now.sh/
+- <img src="https://raw.githubusercontent.com/yhatt/marp-cli-example/master/vercel.svg?sanitize=true" width="24" height="24" valign="bottom" /> **[Vercel]**: https://marp-cli-example.yhatt.now.sh/
 
 ## Usage
 
@@ -52,7 +52,7 @@ Push **"Deploy to netlify"** button. [Netlify] will create your repository based
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/yhatt/marp-cli-example)
 
-### <img src="https://raw.githubusercontent.com/yhatt/marp-cli-example/master/vercel.svg" width="24" height="24" valign="bottom" /> [Vercel] (formerly ZEIT Now)
+### <img src="https://raw.githubusercontent.com/yhatt/marp-cli-example/master/vercel.svg?sanitize=true" width="24" height="24" valign="bottom" /> [Vercel] (formerly ZEIT Now)
 
 Push **"Deploy"** button. [Vercel] can choose to create your repository into GitHub / GitLab / BitBucket based on this example, or just to try publishing slide deck in your without fork.
 
