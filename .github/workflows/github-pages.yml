@@ -11,10 +11,14 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
+      - name: Detect Node version from .nvmrc
+        id: node_version
+        run: echo "::set-output name=nvmrc::$(cat .nvmrc)"
+
       - name: Install Node.js
         uses: actions/setup-node@v1
         with:
-          node-version: '^12.16.1'
+          node-version: ${{ steps.node_version.outputs.nvmrc }}
 
       - uses: actions/cache@v1
         with:
