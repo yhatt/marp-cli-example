@@ -80,13 +80,13 @@ Just edit **[`PITCHME.md`](./PITCHME.md)**!
   </a>
 </p>
 
-#### Start server for preview
+#### Preview via CLI
 
 ```bash
 npm run start
 ```
 
-It will start the server listened at http://localhost:8080/, and track change of `PITCHME.md`.
+It will be opened preview window via installed Google Chrome, and track change of `PITCHME.md`.
 
 ### Assets and themes
 
