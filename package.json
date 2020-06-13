@@ -9,7 +9,7 @@
     "deck": "marp --no-stdin PITCHME.md -o dist/index.html && cpy \"assets/**/*\" dist/assets",
     "now-build": "npm run -s deck",
     "og-image": "marp PITCHME.md -o dist/og-image.jpg",
-    "start": "marp -s ."
+    "start": "marp -ps ."
   },
   "devDependencies": {
     "@marp-team/marp-cli": "^0.18.1",
