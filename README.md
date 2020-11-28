@@ -4,7 +4,7 @@
 
 - Write your slide deck by [Marp] Markdown.
 - Manage the content of slides via Git. (Using [GitPitch](https://gitpitch.com/) style `PITCHME.md`)
-- Host your deck at GitHub, and publish as webpage with [GitHub Pages], [Netlify], and [Vercel][vercel] (ZEIT Now)!
+- Host your deck at GitHub, and publish as webpage with [GitHub Pages], [Netlify], and [Vercel]!
 
 [marp]: https://marp.app/
 [marp cli]: https://github.com/marp-team/marp-cli
@@ -20,31 +20,19 @@
 
 - <img src="https://icongr.am/octicons/mark-github.svg" width="24" height="24" valign="bottom" /> **[GitHub Pages]**: https://yhatt.github.io/marp-cli-example
 - <img src="https://www.netlify.com/img/press/logos/logomark.svg" width="24" height="24" valign="bottom" /> **[Netlify]**: https://yhatt-marp-cli-example.netlify.app/
-- <img src="https://raw.githubusercontent.com/yhatt/marp-cli-example/master/vercel.svg?sanitize=true" width="24" height="24" valign="bottom" /> **[Vercel]**: https://marp-cli-example.yhatt.now.sh/
+- <img src="https://icongr.am/simple/zeit.svg" width="24" height="24" valign="bottom" /> **[Vercel]**: https://marp-cli-example.yhatt.vercel.app/
 
 ## Usage
 
-It's surprisingly easy to start publishing your slide deck through [Netlify] and [Vercel]! (GitHub Pages requires a few steps)
+It's surprisingly easy to start publishing your slide deck!
 
 ### <img src="https://icongr.am/octicons/mark-github.svg" width="24" height="24" valign="bottom" /> [GitHub Pages]
 
-[Fork this repository](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) from **"Fork"** button in right-top corner to start!
+Create a new _public_ repository based on this repository, from **"Use this template"** button!
 
-#### Setup GitHub Actions
+[![](https://img.shields.io/badge/-Use%20this%20template-brightgreen?style=for-the-badge&logo=github)](https://github.com/yhatt/marp-cli-example/generate)
 
-We have [GitHub Actions workflow](.github/workflows/github-pages.yml) to build and deploy from `master` to `gh-pages` automatically.
-
-In the moment, deploying from public repository to GitHub Pages requires setting up your access token as secret. ([Track discussion in forum...](https://github.community/t5/GitHub-Actions/Github-action-not-triggering-gh-pages-upon-push/m-p/26869/highlight/true))
-
-1. Go to **["Personal Access Tokens"](https://github.com/settings/tokens)** setting page and click **"Generate New Token"**.
-2. Create new token with **"repo"** scope, and _copy generated token_.
-3. Go to **"Settings"** tab in forked repository, and select **"Secrets"** from sidebar.
-4. Add a new secret **"ACCESS_TOKEN"** with the value of generated token.
-5. Turn on GitHub Actions in forked repository from **"Actions"** tab.
-
-Marp slide deck generated from [`PITCHME.md`](PITCHME.md) will be published to `https://<your-name>.github.io/<repository-name>`.
-
-> :warning: Please notice the slide deck hosted with GitHub Pages will be made public even if you forked this to private repository.
+We already have [GitHub Actions workflow](.github/workflows/github-pages.yml) to build and deploy from `master` to `gh-pages` automatically. All you have got to [turn on GitHub Pages with `gh-pages` branch](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) from **"Settings"** tab.
 
 ### <img src="https://www.netlify.com/img/press/logos/logomark.svg" width="24" height="24" valign="bottom" /> [Netlify]
 
@@ -52,9 +40,9 @@ Push **"Deploy to netlify"** button. [Netlify] will create your repository based
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/yhatt/marp-cli-example)
 
-### <img src="https://raw.githubusercontent.com/yhatt/marp-cli-example/master/vercel.svg?sanitize=true" width="24" height="24" valign="bottom" /> [Vercel] (formerly ZEIT Now)
+### <img src="https://icongr.am/simple/zeit.svg" width="24" height="24" valign="bottom" /> [Vercel]
 
-Push **"Deploy"** button. [Vercel] can choose to create your repository into GitHub / GitLab / BitBucket based on this example, or just to try publishing slide deck in your without fork.
+Push **"Deploy"** button. [Vercel] can choose to create your repository into GitHub / GitLab / BitBucket based on this example.
 
 [![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/yhatt/marp-cli-example)
 

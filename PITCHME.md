@@ -40,9 +40,7 @@ https://github.com/yhatt/marp-cli-example
 
 #### Ready to write & host your deck!
 
-[![Fork on GitHub h:1.5em](https://img.shields.io/github/forks/yhatt/marp-cli-example?label=Fork&style=social)](https://github.com/yhatt/marp-cli-example)
-
-<!-- _footer: ":information_source: Require to pass ACCESS_TOKEN as secret." -->
+[![Use this as template h:1.5em](https://img.shields.io/badge/-Use%20this%20as%20template-brightgreen?style=for-the-badge&logo=github)](https://github.com/yhatt/marp-cli-example/generate)
 
 ---
 
@@ -56,7 +54,7 @@ https://github.com/yhatt/marp-cli-example
 
 ---
 
-![bg right 60%](https://raw.githubusercontent.com/yhatt/marp-cli-example/master/vercel.svg?sanitize=true)
+![bg right 60%](https://icongr.am/simple/zeit.svg)
 
 ## **[Vercel](https://vercel.com/)**
 
