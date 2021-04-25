@@ -44,13 +44,13 @@ https://github.com/yhatt/marp-cli-example
 
 ---
 
-![bg right 60%](https://www.netlify.com/img/press/logos/logomark.svg)
+![bg right 60%](https://icongr.am/simple/netlify.svg?colored)
 
 ## **[Netlify](https://www.netlify.com/)**
 
 #### Ready to write & host your deck!
 
-[![Deploy to Netlify h:1.5em](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/yhatt/marp-cli-example)
+[![Deploy to Netlify h:1.5em](./assets/netlify-deploy-button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/yhatt/marp-cli-example)
 
 ---
 
