@@ -3,7 +3,7 @@
 **The good starter example for using [Marp] via [Marp CLI].**
 
 - Write your slide deck by [Marp] Markdown.
-- Manage the content of slides via Git. (Using [GitPitch](https://gitpitch.com/) style `PITCHME.md`)
+- Manage the content of slides via Git. (Using [GitPitch](https://github.com/gitpitch/gitpitch) style `PITCHME.md`)
 - Host your deck at GitHub, and publish as webpage with [GitHub Pages], [Netlify], and [Vercel]!
 
 [marp]: https://marp.app/
