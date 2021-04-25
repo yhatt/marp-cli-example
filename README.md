@@ -4,7 +4,8 @@
 
 - Write your slide deck by [Marp] Markdown.
 - Manage the content of slides via Git. (Using [GitPitch](https://github.com/gitpitch/gitpitch) style `PITCHME.md`)
-- Host your deck at GitHub, and publish as webpage with [GitHub Pages], [Netlify], and [Vercel]!
+- Host your deck at GitHub, and publish as webpage with [GitHub Pages], [Netlify], and [Vercel].
+- Blazingly fast delivery out of the box. [Acquired all 100% Lighthouse scores!](#lighthouse)
 
 [marp]: https://marp.app/
 [marp cli]: https://github.com/marp-team/marp-cli
@@ -21,6 +22,12 @@
 - <img src="https://icongr.am/octicons/mark-github.svg" width="24" height="24" valign="bottom" /> **[GitHub Pages]**: https://yhatt.github.io/marp-cli-example
 - <img src="https://icongr.am/simple/netlify.svg?colored" width="24" height="24" valign="bottom" /> **[Netlify]**: https://yhatt-marp-cli-example.netlify.app/
 - <img src="https://icongr.am/simple/zeit.svg" width="24" height="24" valign="bottom" /> **[Vercel]**: https://marp-cli-example.yhatt.vercel.app/
+
+### Lighthouse
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/3993388/115988866-7cd7fe00-a5f6-11eb-9e51-7a62da998eca.png" width="615" alt="Acquired all 100% Lighthouse scores" />
+</p>
 
 ## Usage
 
