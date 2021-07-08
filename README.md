@@ -1,5 +1,7 @@
 # Marp CLI example
 
+[![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/yhatt/marp-cli-example)
+
 **The good starter example for using [Marp] via [Marp CLI].**
 
 - Write your slide deck by [Marp] Markdown.
