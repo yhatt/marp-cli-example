@@ -12,7 +12,7 @@
     "start": "marp -ps ."
   },
   "devDependencies": {
-    "@marp-team/marp-cli": "^1.1.1",
+    "@marp-team/marp-cli": "^1.2.0",
     "cpy-cli": "^3.1.1",
     "rimraf": "^3.0.2"
   }
