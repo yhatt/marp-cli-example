@@ -69,13 +69,17 @@ Just edit **[`PITCHME.md`](./PITCHME.md)**!
 
 #### Preview deck
 
-[**Marp for VS Code**](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode) extension is the best partner for writing Marp slide deck with live preview.
+**[Marp for VS Code]** extension is the best partner for writing Marp slide deck with live preview.
 
 <p align="center">
   <a href="https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode">
     <img src="https://raw.githubusercontent.com/marp-team/marp-vscode/master/docs/screenshot.png" width="500" />
   </a>
 </p>
+
+**You can try edit and preview on the web now!** Open https://github.dev/yhatt/marp-cli-example/blob/master/PITCHME.md or hit <kbd>.</kbd> key on this repository, and install [Marp for VS Code] extension.
+
+[Marp for VS Code]: https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode
 
 #### Preview via CLI
 
