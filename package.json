@@ -6,14 +6,14 @@
   "private": true,
   "scripts": {
     "build": "rimraf dist && npm run -s og-image && npm run -s deck",
-    "deck": "marp --no-stdin PITCHME.md -o dist/index.html && cpy \"assets/**/*\" dist/assets",
+    "deck": "marp --no-stdin PITCHME.md -o dist/index.html && ncp assets dist/assets",
     "now-build": "npm run -s deck",
     "og-image": "marp PITCHME.md -o dist/og-image.jpg",
     "start": "marp -ps ."
   },
   "devDependencies": {
     "@marp-team/marp-cli": "^1.5.0",
-    "cpy-cli": "^3.1.1",
+    "ncp": "^2.0.0",
     "rimraf": "^3.0.2"
   }
 }
