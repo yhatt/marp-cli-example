@@ -9,18 +9,18 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       - name: Detect Node version from .nvmrc
         id: node_version
         run: echo "::set-output name=nvmrc::$(cat .nvmrc)"
 
       - name: Install Node.js
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v3
         with:
           node-version: ${{ steps.node_version.outputs.nvmrc }}
 
-      - uses: actions/cache@v1
+      - uses: actions/cache@v3
         with:
           path: ~/.npm
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
@@ -35,8 +35,8 @@ jobs:
 
       - name: Build Marp slide deck
         run: |
-          CHROME_PATH=$(node .puppeteer.js) npm run build
-          touch ./dist/.nojekyll
+          CHROME_PATH=$(node -e "console.log(require('puppeteer').executablePath())") npm run build
+          touch ./public/.nojekyll
         env:
           # Please update URL if you want to use custom domain
           URL: https://${{ github.event.repository.owner.name }}.github.io/${{ github.event.repository.name }}
@@ -50,4 +50,4 @@ jobs:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages
-          FOLDER: dist
+          FOLDER: public

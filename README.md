@@ -51,7 +51,7 @@ Push **"Deploy to netlify"** button. [Netlify] will create your repository based
 
 ### <img src="https://icongr.am/simple/zeit.svg" width="24" height="24" valign="bottom" /> [Vercel]
 
-Push **"Deploy"** button. [Vercel] can choose to create your repository into GitHub / GitLab / BitBucket based on this example.
+Push **"Deploy"** button. [Vercel] can choose to create your repository based on this example.
 
 [![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/yhatt/marp-cli-example)
 
