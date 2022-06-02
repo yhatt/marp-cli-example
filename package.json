@@ -9,7 +9,7 @@
     "deck": "marp --no-stdin PITCHME.md -o public/index.html && ncp assets public/assets",
     "og-image": "marp --no-stdin PITCHME.md -o public/og-image.jpg",
     "start": "marp -ps .",
-    "vercel-build": "npm i chrome-aws-lambda && CHROME_PATH=$(node -e \"require('chrome-aws-lambda').executablePath.then(console.log)\") npm run build"
+    "vercel-build": "npm i puppeteer && CHROME_PATH=$(node -e \"console.log(require('puppeteer').executablePath())\") npm run build"
   },
   "devDependencies": {
     "@marp-team/marp-cli": "^2.0.1",
