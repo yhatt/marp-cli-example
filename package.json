@@ -8,7 +8,8 @@
     "build": "rimraf public && npm run -s og-image && npm run -s deck",
     "deck": "marp --no-stdin PITCHME.md -o public/index.html && ncp assets public/assets",
     "og-image": "marp PITCHME.md -o public/og-image.jpg",
-    "start": "marp -ps ."
+    "start": "marp -ps .",
+    "vercel-build": "npm i chrome-aws-lambda && CHROME_PATH=$(node -e \"require('chrome-aws-lambda').executablePath.then(console.log)\") npm run build"
   },
   "devDependencies": {
     "@marp-team/marp-cli": "^2.0.1",
