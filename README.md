@@ -51,11 +51,11 @@ Push **"Deploy to netlify"** button. [Netlify] will create your repository based
 
 ### <img src="https://icongr.am/simple/zeit.svg" width="24" height="24" valign="bottom" /> [Vercel]
 
-Push **"Deploy"** button. [Vercel] can choose to create your repository into GitHub / GitLab / BitBucket based on this example.
+Push **"Deploy"** button. [Vercel] can choose to create your repository based on this example.
 
 [![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/yhatt/marp-cli-example)
 
-> :information_source: The auto-generated open graph image is not available in deployment through Vercel.
+> :information_source: To enable the auto-generated open graph image in Vercel, you have to turn on ["Automatically expose System Environment Variables"](https://vercel.com/docs/concepts/projects/environment-variables#system-environment-variables) in your Vercel project dashboard.
 
 ## How to write
 
@@ -79,7 +79,7 @@ Just edit **[`PITCHME.md`](./PITCHME.md)**!
 
 **You can try edit and preview on the web now!** Open https://github.dev/yhatt/marp-cli-example/blob/master/PITCHME.md or hit <kbd>.</kbd> key on this repository, and install [Marp for VS Code] extension.
 
-[Marp for VS Code]: https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode
+[marp for vs code]: https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode
 
 #### Preview via CLI
 
@@ -100,13 +100,13 @@ It will be opened preview window via installed Google Chrome, and track change o
 npm run build
 ```
 
-The built assets will output to `dist` folder.
+The built assets will output to `public` folder.
 
 #### Build per assets
 
 ```bash
-npm run deck      # Output static HTML to dist/index.html
-npm run og-image  # Output image for Open Graph to dist/og-image.jpg
+npm run deck      # Output static HTML to public/index.html
+npm run og-image  # Output image for Open Graph to public/og-image.jpg
 ```
 
 ## LICENSE
