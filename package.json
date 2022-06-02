@@ -5,10 +5,9 @@
   "license": "WTFPL",
   "private": true,
   "scripts": {
-    "build": "rimraf dist && npm run -s og-image && npm run -s deck",
-    "deck": "marp --no-stdin PITCHME.md -o dist/index.html && ncp assets dist/assets",
-    "now-build": "npm run -s deck",
-    "og-image": "marp PITCHME.md -o dist/og-image.jpg",
+    "build": "rimraf public && npm run -s og-image && npm run -s deck",
+    "deck": "marp --no-stdin PITCHME.md -o public/index.html && ncp assets public/assets",
+    "og-image": "marp PITCHME.md -o public/og-image.jpg",
     "start": "marp -ps ."
   },
   "devDependencies": {
