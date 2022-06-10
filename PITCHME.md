@@ -25,8 +25,8 @@ https://github.com/yhatt/marp-cli-example
 
 ---
 
-![bg](#123)
-![](#fff)
+<!-- _backgroundColor: "#123" -->
+<!-- _color: "#fff" -->
 
 ##### <!--fit--> [Marp CLI](https://github.com/marp-team/marp-cli) + [GitHub Pages](https://github.com/pages) | [Netlify](https://www.netlify.com/) | [Vercel](https://vercel.com/)
 
