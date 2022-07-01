@@ -1,3 +1,4 @@
 [build]
   publish = "public"
+  # NOTE: If pasting this command into the Netlify UI, remove the \ prior to the quotation marks, as they don't need to be escaped in that situation.
   command = "npm i puppeteer && CHROME_PATH=$(node -e \"console.log(require('puppeteer').executablePath())\") npm run build"
