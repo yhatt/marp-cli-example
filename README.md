@@ -41,7 +41,9 @@ Create a new _public_ repository based on this repository, from **"Use this temp
 
 [![](https://img.shields.io/badge/-Use%20this%20template-brightgreen?style=for-the-badge&logo=github)](https://github.com/yhatt/marp-cli-example/generate)
 
-We already have [GitHub Actions workflow](.github/workflows/github-pages.yml) to build and deploy from `master` to `gh-pages` automatically. All you have got to [turn on GitHub Pages with `gh-pages` branch](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) from **"Settings"** tab.
+We already have [GitHub Actions workflow](.github/workflows/github-pages.yml) to build and deploy automatically when merged to master branch. It's also available to deploy from any branch manually.
+
+To get started, turn on GitHub Pages in repository's "**Settings** tab → **Pages**" [by setting source as "GitHub Actions"](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-with-a-custom-github-actions-workflow).
 
 ### <img src="https://icongr.am/simple/netlify.svg?colored" width="24" height="24" valign="bottom" /> [Netlify]
 
