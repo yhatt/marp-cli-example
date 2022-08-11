@@ -32,10 +32,7 @@ jobs:
           node-version-file: '.nvmrc'
 
       - name: Install dependencies and Puppeteer
-        run: |
-          npm ci
-          sudo apt-get install libgbm-dev
-          npm i puppeteer --no-save
+        run: npm ci && npm i puppeteer@^14 --no-save
 
       - name: Build Marp slide deck
         run: CHROME_PATH=$(node -e "console.log(require('puppeteer').executablePath())") npm run build
