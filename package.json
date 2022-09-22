@@ -12,7 +12,7 @@
     "vercel-build": "npm i puppeteer --no-save && MARP_USER=root CHROME_PATH=$(node -e \"console.log(require('puppeteer').executablePath())\") npm run build"
   },
   "devDependencies": {
-    "@marp-team/marp-cli": "^2.1.4",
+    "@marp-team/marp-cli": "^2.2.0",
     "ncp": "^2.0.0",
     "rimraf": "^3.0.2"
   }
