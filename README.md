@@ -14,6 +14,7 @@
 [github pages]: https://pages.github.com/
 [netlify]: https://www.netlify.com/
 [vercel]: https://vercel.com/
+[cloudflare pages]: https://pages.cloudflare.com/
 
 <p align="center">
   <a href="https://yhatt.github.io/marp-cli-example"><img src="https://yhatt.github.io/marp-cli-example/og-image.jpg" width="500" /></a>
@@ -24,6 +25,7 @@
 - <img src="https://icongr.am/octicons/mark-github.svg" width="24" height="24" valign="bottom" /> **[GitHub Pages]**: https://yhatt.github.io/marp-cli-example
 - <img src="https://icongr.am/simple/netlify.svg?colored" width="24" height="24" valign="bottom" /> **[Netlify]**: https://yhatt-marp-cli-example.netlify.app/
 - <img src="https://icongr.am/simple/zeit.svg" width="24" height="24" valign="bottom" /> **[Vercel]**: https://marp-cli-example.yhatt.vercel.app/
+- <img src="https://icongr.am/simple/cloudflare.svg?colored" width="24" height="24" valign="bottom" /> **[Cloudflare Pages]**: https://marp-cli-example.pages.dev/ 
 
 ### Lighthouse
 
@@ -58,6 +60,18 @@ Push **"Deploy"** button. [Vercel] can choose to create your repository based on
 [![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/yhatt/marp-cli-example)
 
 > :information_source: To enable the auto-generated open graph image in Vercel, you have to turn on ["Automatically expose System Environment Variables"](https://vercel.com/docs/concepts/projects/environment-variables#system-environment-variables) in your Vercel project dashboard.
+
+### <img src="https://icongr.am/simple/cloudflare.svg?colored" width="24" height="24" valign="bottom" /> [Cloudflare Pages]
+
+- Go to "Pages" in the main left-hand menu.
+- Click "Create a project" button.
+- Select "Connect to Git" from the dropdown.
+- Select your Github or Gitlab repository and click "Begin setup" button.
+- On the build and deployment settings page, set the following values:
+  - Framework preset: None
+  - Build command: `npm run deck`
+  - Build output directory: `/public`
+- Click the "Begin deploy" button.
 
 ## How to write
 
