@@ -3,11 +3,12 @@ marp: true
 title: Marp CLI example
 description: Hosting Marp slide deck on the web
 theme: uncover
+transition: fade
 paginate: true
 _paginate: false
 ---
 
-![bg](./assets/gradient.jpg)
+![bg opacity](./assets/gradient.jpg)
 
 # <!--fit--> Marp CLI example
 
@@ -15,7 +16,7 @@ Hosting Marp slide deck on the web
 
 https://github.com/yhatt/marp-cli-example
 
-<style scoped>a { color: #eee; }</style>
+<style scoped>a { color: #36c; }</style>
 
 <!-- This is presenter note. You can write down notes through HTML comment. -->
 
