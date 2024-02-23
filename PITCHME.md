@@ -1,5 +1,6 @@
 ---
 marp: true
+lang: en-US
 title: Marp CLI example
 description: Hosting Marp slide deck on the web
 theme: uncover

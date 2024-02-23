@@ -23,10 +23,10 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Install Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           cache: npm
           node-version-file: '.nvmrc'
@@ -35,19 +35,16 @@ jobs:
         run: npm ci
 
       - name: Build Marp slide deck
-        run: CHROME_PATH=$(npx @puppeteer/browsers install chrome@stable --path $(realpath ./tmp) | awk '{print $2}') npm run build
+        run: CHROME_PATH=$(npx -y @puppeteer/browsers@latest install chrome@stable --path $(realpath ./tmp) | awk '{print $2}') npm run build
         env:
           # Please update URL if you want to use custom domain
           URL: https://${{ github.event.repository.owner.name }}.github.io/${{ github.event.repository.name }}
 
-          # Recommend to set lang for your deck to get better rendering for Open Graph image
-          LANG: en-US
-
       - name: Upload page artifacts
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v3
         with:
           path: public
 
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@main
+        uses: actions/deploy-pages@v4
