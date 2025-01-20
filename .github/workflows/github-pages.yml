@@ -34,18 +34,11 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Install Chrome
-        uses: browser-actions/setup-chrome@v1
-        id: setup-chrome
-        with:
-          chrome-version: stable
-
       - name: Build Marp slide deck
         run: npm run build
         env:
           # Please update URL if you want to use custom domain
           URL: https://${{ github.event.repository.owner.name }}.github.io/${{ github.event.repository.name }}
-          CHROME_PATH: ${{ steps.setup-chrome.outputs.chrome-path }}
           DEBUG: '*'
 
       - name: Upload page artifacts
