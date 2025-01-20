@@ -39,7 +39,6 @@ jobs:
         env:
           # Please update URL if you want to use custom domain
           URL: https://${{ github.event.repository.owner.name }}.github.io/${{ github.event.repository.name }}
-          DEBUG: '*'
 
       - name: Upload page artifacts
         uses: actions/upload-pages-artifact@v3
