@@ -37,6 +37,8 @@ jobs:
       - name: Install Chrome
         uses: browser-actions/setup-chrome@v1
         id: setup-chrome
+        with:
+          chrome-version: stable
 
       - name: Build Marp slide deck
         run: npm run build
