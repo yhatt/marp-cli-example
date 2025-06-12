@@ -12,7 +12,7 @@
     "vercel-build": "yum install nss mesa-libgbm -y && MARP_USER=root CHROME_PATH=$(npx -y @puppeteer/browsers@latest install chrome@stable --path $(realpath ./tmp) | awk '{print $2}') npm run build"
   },
   "devDependencies": {
-    "@marp-team/marp-cli": "^4.1.2",
+    "@marp-team/marp-cli": "^4.2.0",
     "ncp": "^2.0.0",
     "rimraf": "^6.0.1"
   }
