@@ -1,6 +1,6 @@
 # Marp CLI example
 
-[![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/yhatt/marp-cli-example)
+[![Open in Visual Studio Code](https://img.shields.io/badge/Open_in_Visual_Studio_Code-0098ff)](https://vscode.dev/github.com/yhatt/marp-cli-example)
 
 **The good starter example for using [Marp] via [Marp CLI].**
 
