@@ -36,7 +36,7 @@ https://github.com/yhatt/marp-cli-example
 
 ---
 
-![bg right 60%](https://icongr.am/octicons/mark-github.svg)
+![bg right 60%](https://cdn.simpleicons.org/github)
 
 ## **[GitHub Pages](https://github.com/pages)**
 
@@ -46,7 +46,7 @@ https://github.com/yhatt/marp-cli-example
 
 ---
 
-![bg right 60%](https://icongr.am/simple/netlify.svg?colored)
+![bg right 60%](https://cdn.simpleicons.org/netlify)
 
 ## **[Netlify](https://www.netlify.com/)**
 
@@ -56,7 +56,7 @@ https://github.com/yhatt/marp-cli-example
 
 ---
 
-![bg right 60%](https://icongr.am/simple/zeit.svg)
+![bg right 60%](https://cdn.simpleicons.org/vercel)
 
 ## **[Vercel](https://vercel.com/)**
 

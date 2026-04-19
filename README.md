@@ -21,9 +21,9 @@
 
 ## See published slide deck
 
-- <img src="https://icongr.am/octicons/mark-github.svg" width="24" height="24" valign="bottom" /> **[GitHub Pages]**: https://yhatt.github.io/marp-cli-example
-- <img src="https://icongr.am/simple/netlify.svg?colored" width="24" height="24" valign="bottom" /> **[Netlify]**: https://yhatt-marp-cli-example.netlify.app/
-- <img src="https://icongr.am/simple/zeit.svg" width="24" height="24" valign="bottom" /> **[Vercel]**: https://marp-cli-example.yhatt.vercel.app/
+- <img src="https://cdn.simpleicons.org/github/000/fff" width="24" height="24" valign="bottom" /> **[GitHub Pages]**: https://yhatt.github.io/marp-cli-example
+- <img src="https://cdn.simpleicons.org/netlify/000/fff" width="24" height="24" valign="bottom" /> **[Netlify]**: https://yhatt-marp-cli-example.netlify.app/
+- <img src="https://cdn.simpleicons.org/vercel/000/fff" width="24" height="24" valign="bottom" /> **[Vercel]**: https://marp-cli-example-yhatt.vercel.app/
 
 ### Lighthouse
 
@@ -35,7 +35,7 @@
 
 It's surprisingly easy to start publishing your slide deck!
 
-### <img src="https://icongr.am/octicons/mark-github.svg" width="24" height="24" valign="bottom" /> [GitHub Pages]
+### <img src="https://cdn.simpleicons.org/github/000/fff" width="24" height="24" valign="bottom" /> [GitHub Pages]
 
 Create a new _public_ repository based on this repository, from **"Use this template"** button!
 
@@ -45,13 +45,13 @@ We already have [GitHub Actions workflow](.github/workflows/github-pages.yml) to
 
 To get started, turn on GitHub Pages in repository's "**Settings** tab → **Pages**" [by setting source as "GitHub Actions"](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-with-a-custom-github-actions-workflow).
 
-### <img src="https://icongr.am/simple/netlify.svg?colored" width="24" height="24" valign="bottom" /> [Netlify]
+### <img src="https://cdn.simpleicons.org/netlify/000/fff" width="24" height="24" valign="bottom" /> [Netlify]
 
 Push **"Deploy to netlify"** button. [Netlify] will create your repository based on this example and host website from `master` branch automatically.
 
 [![Deploy to Netlify](./assets/netlify-deploy-button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/yhatt/marp-cli-example)
 
-### <img src="https://icongr.am/simple/zeit.svg" width="24" height="24" valign="bottom" /> [Vercel]
+### <img src="https://cdn.simpleicons.org/vercel/000/fff" width="24" height="24" valign="bottom" /> [Vercel]
 
 Push **"Deploy"** button. [Vercel] can choose to create your repository based on this example.
 
